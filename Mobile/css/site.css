@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+}
+html,body{
+}
+body {
+    background:  url('../images/bg.png') repeat;
+font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+	float:none;
+    margin: 20px 0px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+header h1{
+    float: none;
+    margin: 15px 0px;
+}
+h1 span{
+    font-size: 12px;
+}
+header nav{
+    margin-left: 0px;
+    float: none;
+	text-align:center;
+}
+header nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+	text-align:center;
+}
+header nav ul li{
+    display: block;
+    float: left;
+    height: 50px;
+    margin-left: 5px;
+    text-align: center;
+}
+header nav ul li:hover{
+    background: lightblue;
+    border-radius: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 15px;
+}
+#content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 10px 10px;
+    border: 1px solid darkgray;
+    overflow: hidden;
+    padding: 20px;
+}
+#left {
+    float:  none;
+}
+#left ul{
+    list-style-type: none;
+    margin: 0px;
+    width: 280px;
+
+}
+#left ul li{
+    display: block;
+    height: 30px;
+    background: white;
+    margin-bottom: 15px;
+    padding-bottom:10px;
+}
+#left ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 10px;
+    text-align: left;
+}
+#left ul li:hover{
+    background: lightgray;
+    border-radius: 10px;
+}
+#right{
+    width: 600px;
+    float: left;
+    border-left: 2px solid grey;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.active{
+    background-color: lightgray;
+}
+.footer{
+    height: 2em;
+    margin: 10px 120px;
+    background: darkgray;
+    text-align: center;
+    padding-top:10px;
+}
+#error {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    display: none;
+}
+#error2 {
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+ }
+#result {
+    padding: 20px;
+}
+.account-left{
+    float: left;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.account-right{
+    width: 80%;
+    float: left;
+    padding: 20px;
+    border: 1px solid black;
+}
+.item{
+background: white;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.item > h3{
+padding-bottom: 5px;
+}
+.item > p{
+    font-size: 15px;
+}
+
+.item > p > span{
+    font-size: 12px;
+    padding: 15px 0px 0px 0px;
+}
+.item >span{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 10px;
+}
+textarea{width:140px; }
+header nav ul { display: none !important; }
+header nav select { display: inline-block; }
+
+	@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (orientation: portrait) {
+
+header{
+    margin: 20px 0px;
+}
+
+h1{
+    font-size: 25px;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+header h1{
+	float:none !important;
+    margin: 15px 0px;
+}
+h1 span{
+    font-size: 12px;
+}
+header nav{
+    margin-left: 0px !important;
+	text-align:center;
+}
+header nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+header nav ul li{
+    display: block;
+    float: left;
+    height: 50px;
+    margin-left: 5px;
+    text-align: center;
+}
+header nav ul li:hover{
+    background: lightblue;
+    border-radius: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 15px;
+}
+#content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+#left {
+    float: none;
+}
+#left ul{
+    list-style-type: none;
+    margin: 0px;
+    width: 260px;
+	alignment-adjust:central;
+
+}
+#left ul li{
+    display: block;
+    height: 30px;
+    background: white;
+    margin-bottom: 15px;
+    padding-bottom:10px;
+}
+#left ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 10px;
+    text-align: left;
+}
+#left ul li:hover{
+    background: lightgray;
+    border-radius: 10px;
+}
+#right{
+    width: 270px;
+    float: none;
+	text-align:-webkit-center;
+    border-top: 2px solid grey;
+    border-left: 0px solid grey;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.active{
+    background-color: lightgray;
+}
+
+.footer{
+    background: darkgray none repeat scroll 0 0;
+    margin: 0px 42px;
+    padding-top: 10px;
+    text-align: center;
+	}
+#error {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    display: none;
+}
+#error2 {
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+ }
+#result {
+    padding: 20px;
+}
+.account-left{
+      border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    padding: 50px;
+	max-width:60% !important;
+    
+}
+.account-right{
+     border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    padding: 50px;
+	max-width:60% !important;
+	}
+	input{
+		font-size:10px;
+	}
+.item{
+background: white;
+    width: 80% !important;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.item > h3{
+padding-bottom: 5px;
+}
+.item > p{
+    font-size: 15px;
+}
+
+.item > p > span{
+    font-size: 12px;
+    padding: 15px 0px 0px 0px;
+}
+.item >span{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 10px;
+}
+textarea{width:140px; }
+header nav ul { display: none !important; }
+header nav select { display: inline-block; }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (orientation: landscape) {
+
+header{
+	float:none !important;
+    margin: 20px 0px;
+}
+
+h1{
+    font-size: 25px;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+header h1{
+    float: none !important; 
+    margin: 15px 0px;
+}
+h1 span{
+    font-size: 12px;
+}
+header nav{
+    margin-left: -10px;
+	text-align:center;
+}
+header nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+	text-align:center;
+}
+header nav ul li{
+    display: block;
+    float: left;
+    height: 50px;
+    margin-left: 5px;
+    text-align: center;
+}
+header nav ul li:hover{
+    background: lightblue;
+    border-radius: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 15px;
+}
+#content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+#left {
+    float: none;
+}
+#left ul{
+    list-style-type: none;
+    margin: 0px;
+    width: 280px;
+
+}
+#left ul li{
+    display: block;
+    height: 30px;
+	text-align:center;
+    background: white;
+    margin-bottom: 15px;
+    padding-bottom:10px;
+}
+#left ul li a{
+    text-decoration: none;
+    display: block;
+    width: inherit;
+    padding: 10px;
+    text-align: left;
+}
+#left ul li:hover{
+    background: lightgray;
+    border-radius: 10px;
+}
+#right{
+    width: 600px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.active{
+    background-color: lightgray;
+}
+.footer{
+    background: darkgray none repeat scroll 0 0;
+    margin: 0px 42px;
+    padding-top: 10px;
+    text-align: center;
+	}
+#error {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    display: none;
+}
+#error2 {
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+ }
+#result {
+    padding: 20px;
+}
+.account-left{
+      border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    padding: 50px;
+    max-width:70% !important;
+}
+.account-right{
+      border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    padding: 50px;
+    max-width:70% !important;
+}
+.item{
+background: white;
+    max-width: 70% !important
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.item > h3{
+padding-bottom: 5px;
+}
+.item > p{
+    font-size: 15px;
+}
+
+.item > p > span{
+    font-size: 12px;
+    padding: 15px 0px 0px 0px;
+}
+.item >span{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 10px;
+}
+textarea{width:140px; }
+ header nav ul { display: none !important; }
+     header nav select { display: inline-block; }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
